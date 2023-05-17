@@ -7611,8 +7611,8 @@ rewrite-spring:
       options: []
       isImperative: true
       artifactId: "rewrite-spring"
-    org.openrewrite.java.spring.boot2.MigrateHibernateContraintsToJavax:
-      name: "org.openrewrite.java.spring.boot2.MigrateHibernateContraintsToJavax"
+    org.openrewrite.java.spring.boot2.MigrateHibernateConstraintsToJavax:
+      name: "org.openrewrite.java.spring.boot2.MigrateHibernateConstraintsToJavax"
       description: "Use `javax.validation.constraints` instead of the deprecated `org.hibernate.validator.constraints`\
         \ in Spring Boot 2.0 or higher."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/spring/boot2/migratehibernatecontraintstojavax"

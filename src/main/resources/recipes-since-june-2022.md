@@ -306,7 +306,7 @@ Initial recipe development time: 128h
 * [org.openrewrite.java.spring.boot2.AuthorizeHttpRequests](https://docs.openrewrite.org/reference/recipes/java/spring/boot2/authorizehttprequests) — 12h
 * [org.openrewrite.java.spring.boot2.ChangeEmbeddedServletContainerCustomizer](https://docs.openrewrite.org/reference/recipes/java/spring/boot2/changeembeddedservletcontainercustomizer) — 12h
 * [org.openrewrite.java.spring.boot2.HttpSecurityLambdaDsl](https://docs.openrewrite.org/reference/recipes/java/spring/boot2/httpsecuritylambdadsl) — 12h
-* [org.openrewrite.java.spring.boot2.MigrateHibernateContraintsToJavax](https://docs.openrewrite.org/reference/recipes/java/spring/boot2/migratehibernatecontraintstojavax) — 4h
+* [org.openrewrite.java.spring.boot2.MigrateHibernateConstraintsToJavax](https://docs.openrewrite.org/reference/recipes/java/spring/boot2/migratehibernatecontraintstojavax) — 4h
 * [org.openrewrite.java.spring.boot2.MigrateToWebServerFactoryCustomizer](https://docs.openrewrite.org/reference/recipes/java/spring/boot2/migratetowebserverfactorycustomizer) — 4h
 * [org.openrewrite.java.spring.boot2.MoveAutoConfigurationToImportsFile](https://docs.openrewrite.org/reference/recipes/java/spring/boot2/moveautoconfigurationtoimportsfile) — 12h
 * [org.openrewrite.java.spring.boot2.ReplaceExtendWithAndContextConfiguration](https://docs.openrewrite.org/reference/recipes/java/spring/boot2/replaceextendwithandcontextconfiguration) — 12h
