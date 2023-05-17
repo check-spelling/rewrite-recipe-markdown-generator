@@ -2354,7 +2354,7 @@ rewrite-java:
       artifactId: "rewrite-java"
     org.openrewrite.java.cleanup.RemoveEmptyJavaDocParameters:
       name: "org.openrewrite.java.cleanup.RemoveEmptyJavaDocParameters"
-      description: "Removes `@params`, `@return`, and `@throws` with no description\
+      description: "Removes `@param`, `@return`, and `@throws` with no description\
         \ from JavaDocs."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/cleanup/removeemptyjavadocparameters"
       options: []
