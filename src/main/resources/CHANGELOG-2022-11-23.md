@@ -41,7 +41,7 @@
 * [org.openrewrite.java.migrate.jakarta.JavaxJwsToJakartaJws](https://docs.openrewrite.org/reference/recipes/java/migrate/jakarta/javaxjwstojakartajws): Java EE has been rebranded to Jakarta EE, necessitating a package relocation.
 * [org.openrewrite.java.migrate.jakarta.JavaxMailToJakartaMail](https://docs.openrewrite.org/reference/recipes/java/migrate/jakarta/javaxmailtojakartamail): Java EE has been rebranded to Jakarta EE, necessitating a package relocation.
 * [org.openrewrite.java.migrate.jakarta.JavaxMigrationToJakarta](https://docs.openrewrite.org/reference/recipes/java/migrate/jakarta/javaxmigrationtojakarta): Jakarta EE 9 is the first version of Jakarta EE that uses the new `jakarta` namespace.
-* [org.openrewrite.java.migrate.jakarta.JavaxPeristenceXmlToJakartaPersistenceXml](https://docs.openrewrite.org/reference/recipes/java/migrate/jakarta/javaxperistencexmltojakartapersistencexml):
+* [org.openrewrite.java.migrate.jakarta.JavaxPersistenceXmlToJakartaPersistenceXml](https://docs.openrewrite.org/reference/recipes/java/migrate/jakarta/javaxperistencexmltojakartapersistencexml):
 * [org.openrewrite.java.migrate.jakarta.JavaxPersistenceToJakartaPersistence](https://docs.openrewrite.org/reference/recipes/java/migrate/jakarta/javaxpersistencetojakartapersistence): Java EE has been rebranded to Jakarta EE, necessitating a package relocation
 * [org.openrewrite.java.migrate.jakarta.JavaxResourceToJakartaResource](https://docs.openrewrite.org/reference/recipes/java/migrate/jakarta/javaxresourcetojakartaresource): Java EE has been rebranded to Jakarta EE, necessitating a package relocation.
 * [org.openrewrite.java.migrate.jakarta.JavaxSecurityToJakartaSecurity](https://docs.openrewrite.org/reference/recipes/java/migrate/jakarta/javaxsecuritytojakartasecurity): Java EE has been rebranded to Jakarta EE, necessitating a package relocation.
@@ -124,7 +124,7 @@
 * **org.openrewrite.java.migrate.JavaxJwsToJakartaJws**: Java EE has been rebranded to Jakarta EE, necessitating a package relocation.
 * **org.openrewrite.java.migrate.JavaxMailToJakartaMail**: Java EE has been rebranded to Jakarta EE, necessitating a package relocation.
 * **org.openrewrite.java.migrate.JavaxMigrationToJakarta**: Java EE has been rebranded to Jakarta EE, necessitating a package relocation.
-* **org.openrewrite.java.migrate.JavaxPeristenceXmlToJakartaPersistenceXml**:
+* **org.openrewrite.java.migrate.JavaxPersistenceXmlToJakartaPersistenceXml**:
 * **org.openrewrite.java.migrate.JavaxPersistenceToJakartaPersistence**: Java EE has been rebranded to Jakarta EE, necessitating a package relocation
 * **org.openrewrite.java.migrate.JavaxResourceToJakartaResource**: Java EE has been rebranded to Jakarta EE, necessitating a package relocation.
 * **org.openrewrite.java.migrate.JavaxSecurityToJakartaSecurity**: Java EE has been rebranded to Jakarta EE, necessitating a package relocation.

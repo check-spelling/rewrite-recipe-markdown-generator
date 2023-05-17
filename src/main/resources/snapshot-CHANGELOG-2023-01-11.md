@@ -16,7 +16,7 @@
 
 ## Removed Recipes
 * **org.openrewrite.gradle.search.EnableGradleParallelExecution**: Most builds consist of more than one project and some of those projects are usually independent of one another. Yet Gradle will only run one task at a time by default, regardless of the project structure. By using the `--parallel` switch, you can force Gradle to execute tasks in parallel as long as those tasks are in different projects. See the [Gradle performance documentation](https://docs.gradle.org/current/userguide/performance.html#parallel_execution) for more. 
-* **org.openrewrite.java.migrate.jakarta.JavaxPeristenceXmlToJakartaPersistenceXml**:  
+* **org.openrewrite.java.migrate.jakarta.JavaxPersistenceXmlToJakartaPersistenceXml**:  
 * **org.openrewrite.java.spring.YamlPropertiesToKebabCase**: Normalize Spring YAML properties to use lowercase and hyphen-separated syntax. For example, changing `spring.main.showBanner` to `spring.main.show-banner`. With [Spring's relaxed binding](https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/features.html#features.external-config.typesafe-configuration-properties.relaxed-binding), `kebab-case` may be used in properties files and still be converted to configuration beans. Note, an exception to this is the case of `@Value`, which is match-sensitive. For example, `@Value("${anExampleValue}")` will not match `an-example-value`. [The Spring reference documentation recommends using `kebab-case` for properties where possible.](https://docs.spring.io/spring-boot/docs/2.5.6/reference/html/features.html#features.external-config.typesafe-configuration-properties.relaxed-binding) . 
 
 ## Changed Recipes

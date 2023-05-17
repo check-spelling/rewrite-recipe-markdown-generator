@@ -45,7 +45,7 @@
 
 ## Removed Recipes
 * **org.openrewrite.gradle.search.EnableGradleParallelExecution**: Most builds consist of more than one project and some of those projects are usually independent of one another. Yet Gradle will only run one task at a time by default, regardless of the project structure. By using the `--parallel` switch, you can force Gradle to execute tasks in parallel as long as those tasks are in different projects. See the [Gradle performance documentation](https://docs.gradle.org/current/userguide/performance.html#parallel_execution) for more. 
-* **org.openrewrite.java.migrate.jakarta.JavaxPeristenceXmlToJakartaPersistenceXml**:  
+* **org.openrewrite.java.migrate.jakarta.JavaxPersistenceXmlToJakartaPersistenceXml**:  
 * **org.openrewrite.java.quarkus.ConfigPropertiesToConfigMapping**: Migrate Quarkus configuration classes annotated with `@ConfigProperties` to the equivalent Smallrye `@ConfigMapping`. 
 * **org.openrewrite.java.quarkus.ConfigureQuarkusMavenPluginWithReasonableDefaults**: Configures the `quarkus-maven-plugin` with reasonable defaults, such as default activated `goals` and `<extensions>` configuration. 
 * **org.openrewrite.java.quarkus.MigrateQuarkusMavenPluginNativeImageGoal**: Migrates the `quarkus-maven-plugin` deprecated `native-image` goal. If the `native-image` goal needs to be removed, this adds `<quarkus.package.type>native</quarkus.package.type>` to the `native` profile `properties` section, given the `native` profile exists in the `pom.xml`. 
