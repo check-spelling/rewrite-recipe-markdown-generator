@@ -139,7 +139,7 @@ rewrite-cloud-suitability-analyzer:
       artifactId: "rewrite-cloud-suitability-analyzer"
     org.openrewrite.cloudsuitability.FindJcaAnnotations:
       name: "org.openrewrite.cloudsuitability.FindJcaAnnotations"
-      description: "Java messaging can present problems in TAS due to its emphemerality.\
+      description: "Java messaging can present problems in TAS due to its ephemerality.\
         \ Convert to a backing service or use TKG."
       docLink: "https://docs.openrewrite.org/reference/recipes/cloudsuitability/findjcaannotations"
       options: []
@@ -596,7 +596,7 @@ rewrite-github-actions:
       artifactId: "rewrite-github-actions"
     org.openrewrite.github.SetupJavaCaching:
       name: "org.openrewrite.github.SetupJavaCaching"
-      description: "Github actions supports dependency caching on Maven and Gradle\
+      description: "GitHub actions supports dependency caching on Maven and Gradle\
         \ projects. See the [blog post](https://github.blog/changelog/2021-08-30-github-actions-setup-java-now-supports-dependency-caching/)."
       docLink: "https://docs.openrewrite.org/reference/recipes/github/setupjavacaching"
       options: []
@@ -1970,7 +1970,7 @@ rewrite-java:
         \ non-serializable fields as `transient`.\n\nNOTE: Any fullyQualified names\
         \ listed in the `fullyQualifiedExclusions` will be marked as transient, even\
         \ if that SourceFile exists in the same project.\n\nNOTE: This recipe does\
-        \ NOT recursively modify newly `Serilazable` classes to cut down on the graph\
+        \ NOT recursively modify newly `Serializable` classes to cut down on the graph\
         \ of SourceFiles that may be impacted during a recipe run."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/cleanup/fixserializablefields"
       options:
@@ -2354,7 +2354,7 @@ rewrite-java:
       artifactId: "rewrite-java"
     org.openrewrite.java.cleanup.RemoveEmptyJavaDocParameters:
       name: "org.openrewrite.java.cleanup.RemoveEmptyJavaDocParameters"
-      description: "Removes `@params`, `@return`, and `@throws` with no description\
+      description: "Removes `@param`, `@return`, and `@throws` with no description\
         \ from JavaDocs."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/cleanup/removeemptyjavadocparameters"
       options: []
@@ -3011,7 +3011,7 @@ rewrite-java:
       artifactId: "rewrite-java"
     org.openrewrite.java.recipes.SetDefaultEstimatedEffortPerOccurrence:
       name: "org.openrewrite.java.recipes.SetDefaultEstimatedEffortPerOccurrence"
-      description: "Retrofit recipes with a deafult estimated effort per occurrence."
+      description: "Retrofit recipes with a default estimated effort per occurrence."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/recipes/setdefaultestimatedeffortperoccurrence"
       options: []
       isImperative: true
@@ -7574,8 +7574,8 @@ rewrite-spring:
       options: []
       isImperative: true
       artifactId: "rewrite-spring"
-    org.openrewrite.java.spring.boot2.MigrateHibernateContraintsToJavax:
-      name: "org.openrewrite.java.spring.boot2.MigrateHibernateContraintsToJavax"
+    org.openrewrite.java.spring.boot2.MigrateHibernateConstraintsToJavax:
+      name: "org.openrewrite.java.spring.boot2.MigrateHibernateConstraintsToJavax"
       description: "Use `javax.validation.constraints` instead of the deprecated `org.hibernate.validator.constraints`\
         \ in Spring Boot 2.0 or higher."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/spring/boot2/migratehibernatecontraintstojavax"
@@ -7663,7 +7663,7 @@ rewrite-spring:
         \ in Spring Boot 2.0 or higher. This recipe will replace look for any classes\
         \ that implement `EmbeddedServletContainerCustomizer` and change the interface\
         \ to `WebServerFactoryCustomizer<ConfigurableServletWebServerFactory>`. This\
-        \ recipe also adjusts the the types used in the `customize()` method from\
+        \ recipe also adjusts the types used in the `customize()` method from\
         \ `*EmbeddedServletContainerFactory` to their `*ServletWebServerFactory` counterparts.\n"
       docLink: "https://docs.openrewrite.org/reference/recipes/java/spring/boot2/migratetowebserverfactorycustomizer"
       options: []
