@@ -503,7 +503,7 @@ rewrite-github-actions:
       artifactId: "rewrite-github-actions"
     org.openrewrite.github.SetupJavaCaching:
       name: "org.openrewrite.github.SetupJavaCaching"
-      description: "Github actions supports dependency caching on Maven and Gradle\
+      description: "GitHub actions supports dependency caching on Maven and Gradle\
         \ projects. See the [blog post](https://github.blog/changelog/2021-08-30-github-actions-setup-java-now-supports-dependency-caching/)."
       docLink: "https://docs.openrewrite.org/reference/recipes/github/setupjavacaching"
       options: []
