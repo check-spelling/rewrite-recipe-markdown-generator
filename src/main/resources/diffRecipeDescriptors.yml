@@ -2807,7 +2807,7 @@ rewrite-java:
       artifactId: "rewrite-java"
     org.openrewrite.java.recipes.SetDefaultEstimatedEffortPerOccurrence:
       name: "org.openrewrite.java.recipes.SetDefaultEstimatedEffortPerOccurrence"
-      description: "Retrofit recipes with a deafult estimated effort per occurrence."
+      description: "Retrofit recipes with a default estimated effort per occurrence."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/recipes/setdefaultestimatedeffortperoccurrence"
       options: []
       isImperative: true
