@@ -139,7 +139,7 @@ rewrite-cloud-suitability-analyzer:
       artifactId: "rewrite-cloud-suitability-analyzer"
     org.openrewrite.cloudsuitability.FindJcaAnnotations:
       name: "org.openrewrite.cloudsuitability.FindJcaAnnotations"
-      description: "Java messaging can present problems in TAS due to its emphemerality.\
+      description: "Java messaging can present problems in TAS due to its ephemerality.\
         \ Convert to a backing service or use TKG."
       docLink: "https://docs.openrewrite.org/reference/recipes/cloudsuitability/findjcaannotations"
       options: []
