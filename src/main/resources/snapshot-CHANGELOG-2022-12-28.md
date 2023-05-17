@@ -9,5 +9,5 @@
 * [org.openrewrite.xml.security.IsOwaspSuppressionsFile](https://docs.openrewrite.org/reference/recipes/xml/security/isowaspsuppressionsfile): These files are used to suppress false positives in OWASP [Dependency Check](https://jeremylong.github.io/DependencyCheck).
 
 ## Removed Recipes
-* **org.openrewrite.java.spring.boot3.LegacyJmxExposure**: Spring Boot 3.0 only exposes the health endpoint via JMX. This change exposes all actuator endpoints via JMX to maintain parity with Spring Boot 2.x. See See https://github.com/openrewrite/rewrite-spring/issues/229 
+* **org.openrewrite.java.spring.boot3.LegacyJmxExposure**: Spring Boot 3.0 only exposes the health endpoint via JMX. This change exposes all actuator endpoints via JMX to maintain parity with Spring Boot 2.x. See https://github.com/openrewrite/rewrite-spring/issues/229 
 
