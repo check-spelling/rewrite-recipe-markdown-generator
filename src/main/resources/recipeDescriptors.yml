@@ -1970,7 +1970,7 @@ rewrite-java:
         \ non-serializable fields as `transient`.\n\nNOTE: Any fullyQualified names\
         \ listed in the `fullyQualifiedExclusions` will be marked as transient, even\
         \ if that SourceFile exists in the same project.\n\nNOTE: This recipe does\
-        \ NOT recursively modify newly `Serilazable` classes to cut down on the graph\
+        \ NOT recursively modify newly `Serializable` classes to cut down on the graph\
         \ of SourceFiles that may be impacted during a recipe run."
       docLink: "https://docs.openrewrite.org/reference/recipes/java/cleanup/fixserializablefields"
       options:
